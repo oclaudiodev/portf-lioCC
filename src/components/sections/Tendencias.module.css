@@ -1,0 +1,9 @@
+.section { padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto; }
+.t_card { border-radius: var(--radius-md); padding: 1.1rem; transition: var(--transition); cursor:pointer; }
+.t_card:hover { transform: scale(1.02); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .section { padding: 2rem 1rem; }
+  .t_card { padding: .9rem; }
+}

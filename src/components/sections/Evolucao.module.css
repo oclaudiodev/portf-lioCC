@@ -1,0 +1,58 @@
+.section { padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto; }
+
+.hist_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.85rem;
+}
+
+.h_card {
+  background: rgba(10,15,30,.8);
+  border: 1px solid rgba(0,212,255,.2);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  position: relative;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.h_card:hover { transform: scale(1.02); }
+
+.gen_tag {
+  position: absolute;
+  top: 0.6rem; right: 0.6rem;
+  font-size: 0.55rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 8px;
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.era { font-size: 0.65rem; color: var(--neon-blue); font-family: var(--font-mono); margin-bottom: 0.2rem; }
+.name { font-size: 0.85rem; font-weight: 700; margin-bottom: 0.2rem; }
+.desc { font-size: 0.72rem; color: var(--text-secondary); line-height: 1.45; }
+
+.impact_card {
+  background: rgba(10,15,30,.75);
+  border: 1px solid rgba(0,212,255,.2);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  transition: var(--transition);
+}
+.impact_card:hover { transform: translateY(-3px); }
+
+.imp_icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+.imp_name { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.35rem; }
+.imp_desc { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .section { padding: 2rem 1rem; }
+  .hist_grid { grid-template-columns: repeat(2, 1fr); gap: .65rem; }
+  .h_card { padding: .85rem; }
+  .name { font-size: .8rem; }
+  .desc { font-size: .68rem; }
+}
+
+@media (max-width: 420px) {
+  .hist_grid { grid-template-columns: 1fr; }
+}

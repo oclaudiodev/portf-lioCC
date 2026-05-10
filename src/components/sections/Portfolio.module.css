@@ -1,0 +1,41 @@
+.section { padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto; }
+
+.hero {
+  background: linear-gradient(135deg, #00d4ff, #b44dff);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  text-align: center;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.hero_title { font-family: var(--font-display); font-size: 1.25rem; font-weight: 900; }
+
+.eval_card { text-align: center; padding: 1.5rem; }
+
+.formula {
+  background: rgba(0,0,0,.5);
+  border: 1px solid var(--neon-purple);
+  border-radius: var(--radius-md);
+  padding: 1.35rem;
+  text-align: center;
+  font-family: var(--font-mono);
+  color: var(--neon-purple);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--text-secondary);
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0,212,255,.15);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .section { padding: 2rem 1rem; }
+  .hero { padding: 1.75rem 1.25rem; }
+  .hero_title { font-size: 1.05rem; }
+}

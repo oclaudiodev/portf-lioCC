@@ -1,0 +1,7 @@
+.section { padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto; }
+.base_card { text-align: center; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .section { padding: 2rem 1rem; }
+}
