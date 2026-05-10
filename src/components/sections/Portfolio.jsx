@@ -32,7 +32,7 @@ export default function Portfolio() {
       <div className={styles.formula}>
         <div style={{ fontSize:'.7rem', color:'var(--text-secondary)', marginBottom:'.4rem', letterSpacing:'.1em', fontFamily:'var(--font-mono)' }}>FÓRMULA DE APROVAÇÃO</div>
         <div style={{ fontSize:'1.1rem' }}>Média = (P1 + P2 + P3) ÷ 3</div>
-        <div style={{ fontSize:'.72rem', color:'var(--text-secondary)', marginTop:'.4rem' }}>Mínimo para aprovação: 5,0</div>
+        <div style={{ fontSize:'.72rem', color:'var(--text-secondary)', marginTop:'.4rem' }}>Mínimo para aprovação: 6,0</div>
       </div>
 
       {/* Quiz */}
