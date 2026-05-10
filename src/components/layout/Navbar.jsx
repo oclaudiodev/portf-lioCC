@@ -94,7 +94,7 @@ export default function Navbar({ active, onNav }) {
             </button>
           ))}
         </div>
-        <div className={styles.drawer_footer}>Prof. Fabio Brussolo · 2025</div>
+        <div className={styles.drawer_footer}>Prof. Fabio Brussolo · 2026</div>
       </div>
     </nav>
   )

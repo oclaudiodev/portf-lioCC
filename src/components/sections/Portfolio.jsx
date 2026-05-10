@@ -10,7 +10,7 @@ export default function Portfolio() {
       <div className="section-divider" />
 
       <div className={styles.hero}>
-        <div className={styles.hero_title}>CONCEITOS DE COMPUTAÇÃO — 2025</div>
+        <div className={styles.hero_title}>CONCEITOS DE COMPUTAÇÃO — 2026</div>
         <div style={{ fontSize:'.88rem', marginTop:'.3rem' }}>Portfólio Acadêmico — Curso Técnico de Informática</div>
         <div style={{ fontSize:'.78rem', marginTop:'.2rem', opacity:.8 }}>Prof. Fabio Brussolo</div>
       </div>
@@ -42,7 +42,7 @@ export default function Portfolio() {
       <Quiz />
 
       <div className={styles.footer}>
-        <div style={{ color:'var(--neon-blue)', marginBottom:'.3rem' }}>⬡ CONCEITOS DE COMPUTAÇÃO — PORTFÓLIO ACADÊMICO 2025</div>
+        <div style={{ color:'var(--neon-blue)', marginBottom:'.3rem' }}>⬡ CONCEITOS DE COMPUTAÇÃO — PORTFÓLIO ACADÊMICO 2026</div>
         Prof. Fabio Brussolo · React + Vite · TailwindCSS · Framer Motion
       </div>
     </section>

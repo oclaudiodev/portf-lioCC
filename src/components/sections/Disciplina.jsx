@@ -103,7 +103,7 @@ export default function Disciplina() {
       </div>
 
       {/* Cronograma */}
-      <h2 className="section-title" style={{ fontSize: '1.3rem' }}>Cronograma 2025</h2>
+      <h2 className="section-title" style={{ fontSize: '1.3rem' }}>Cronograma 2026</h2>
       <div className="section-divider" />
       <div className={styles.cron_grid}>
         {CRONOGRAMA.map(mes => {

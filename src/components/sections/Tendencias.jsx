@@ -15,7 +15,7 @@ export default function Tendencias() {
   return (
     <section className={styles.section}>
       <h2 className="section-title">Tendências Tecnológicas</h2>
-      <p style={{ color:'var(--text-secondary)', marginBottom:'0.5rem' }}>As 10 tendências que estão moldando o futuro digital — 2025</p>
+      <p style={{ color:'var(--text-secondary)', marginBottom:'0.5rem' }}>As 10 tendências que estão moldando o futuro digital — 2026</p>
       <div className="section-divider" />
 
       <div className="grid-3" style={{ marginBottom:'3rem' }}>

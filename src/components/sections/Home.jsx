@@ -21,7 +21,7 @@ function AnimatedCounter({ target, duration = 1800 }) {
 export default function Home({ onNav }) {
   return (
     <section className={styles.section}>
-      <div className={styles.badge}>● CURSO TÉCNICO DE INFORMÁTICA — 2025</div>
+      <div className={styles.badge}>● CURSO TÉCNICO DE INFORMÁTICA — 2026</div>
 
       <h1 className={styles.title}>
         <span className="grad-text">Conceitos de<br />Computação</span>
